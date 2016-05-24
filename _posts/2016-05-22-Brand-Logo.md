@@ -5,7 +5,11 @@ title: 'Logo'
 layout: nil
 ---
 
-This method allows users to retrieve stuff.
+Master Logo
+The Frontify master logo should be used at all times. Where not possible, one of the logo variations should be used (see below). This is to make sure the logo and brand are used in a consistent manner across all communications.
+
+### Hauptlogo
+Das GmBh Hauptlogo soll immer verwendet werden. Wenn es nicht möglich ist, dann soll eine Logovariante gewählt werden.
 
 ### Response
 
