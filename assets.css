@@ -404,7 +404,7 @@ body {
 }
 
 body {
-  background: #fff;
+  background: #ccc;
 }
 
 body,
@@ -640,4 +640,14 @@ code {
 
 .order-order-button {
   padding:15px;
+}
+
+.main-logo {
+  width:60%;
+  display:block;
+}
+
+.alternative-logo{
+  width:40%;
+  float:left;
 }
