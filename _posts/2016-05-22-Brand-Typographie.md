@@ -5,16 +5,12 @@ title: 'Typographie'
 layout: nil
 ---
 
-This method allows users to retrieve stuff.
+Wir verwenden einen Schrift die für User Interface Elemente besonders lesbar ist.
 
-### Response
 
-Sends back a collection of things.
+## Palanquin Normal 400:
+<div class="font-container"><span class="palanguin-thin">The quick brown fox jumps over the lazy dog</span></div>
+<br>
 
-```Authentication: bearer TOKEN```
-```{
-id: thing_2,
-name: 'My second thing'
-}```
-
-For errors responses, see the [response status codes documentation](#response-status-codes).
+## bold
+<div class="font-container"><span class="palanguin-thick">The quick brown fox jumps over the lazy dog</span></div>
