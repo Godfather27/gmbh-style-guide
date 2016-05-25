@@ -1,20 +1,24 @@
 ---
 category: 'Methologien'
 title: 'Dateistruktur'
-
-layout: nil
 ---
 
-This method allows users to retrieve stuff.
+In der Datei app.scss sollen allgemeine Sachen stehen.
+In dieser sollen die zusätzlichen Dateien importiert werden, welche beim Buildprozess zusammengeführt werden.
 
-### Response
+Zusätzliche Dateien sind in Routen oder Komponenten gegliedert.
 
-Sends back a collection of things.
+In den Dateien der Routen werden Hauptansichten definiert und Layout zwischen Komponenten definiert.
+Layout und Design das Inhalt von Komponenten betreffen, befindet sich in der zugehörigen Komponentendatei.
 
-```Authentication: bearer TOKEN```
-```{
-id: thing_2,
-name: 'My second thing'
-}```
+## Beispiel:
 
-For errors responses, see the [response status codes documentation](#response-status-codes).
+### Routen:
+- Route: /order
+- Beschreibung: Bestellansicht für den Kellner
+- Datei: order.scss
+
+### Komponenten: 
+- category-selection
+- Beschreibung: Ist die Auswahl zwischen den verschieden Kategorien
+- Datei: category-selection.scss
