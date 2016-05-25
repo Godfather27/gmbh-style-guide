@@ -1,20 +1,12 @@
 ---
 category: 'Methologien'
 title: 'Preprocessor'
-
-layout: nil
 ---
 
-This method allows users to retrieve stuff.
+### Preprocessor 
 
-### Response
+Wir verwenden SCSS im Projekt, um Funktionen zu erhalten die uns mit CSS nicht zur Verfügung stehen.
 
-Sends back a collection of things.
-
-```Authentication: bearer TOKEN```
-```{
-id: thing_2,
-name: 'My second thing'
-}```
-
-For errors responses, see the [response status codes documentation](#response-status-codes).
+- Concatenieren der Files
+- Mixins und Extends
+- Nesting (Vorallem wegen der Komponentenschreibweise von Ember)

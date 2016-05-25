@@ -443,7 +443,6 @@ code {
   color: #fff;
   float: left;  
   height: 100%;
-  overflow: auto;
   position: fixed;
   top: 0;
   width: 240px;
@@ -638,6 +637,12 @@ code {
   white-space: pre;
 }
 
+.nav-logo {
+  width:80%;
+  margin:10%;
+  margin-bottom:0;
+}
+
 .order-order-button {
   padding:15px;
 }
@@ -650,4 +655,37 @@ code {
 .alternative-logo{
   width:40%;
   float:left;
+}
+
+.circle {
+  border-radius:50%;
+  width:100px;
+  height:100px;
+  display:inline-block;
+  border:2px solid white;
+
+}
+
+
+.color-circle-1 {background-color:red; }
+.color-circle-2 {background-color:blue;}
+.color-circle-3 {background-color:green;}
+.color-circle-4 {background-color:pink;}
+.color-circle-5 {background-color:grey}
+
+.palanguin-thin {
+
+  font-size:2em;
+  font-family: 'Palanquin', sans-serif;
+}
+
+.palanguin-thick {
+  font-size:2em;
+  font-family: 'Palanquin', sans-serif;
+  font-weight:bold;
+}
+.font-container{
+  background-color:white;
+  padding:10px;
+  border:1px solid black;
 }

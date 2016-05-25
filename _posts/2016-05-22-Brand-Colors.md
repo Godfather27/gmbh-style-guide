@@ -5,16 +5,11 @@ title: 'Colors'
 layout: nil
 ---
 
-This method allows users to retrieve stuff.
+<div class="circle color-circle-1"></div>
+<div class="circle color-circle-2"></div>
+<div class="circle color-circle-3"></div>
+<div class="circle color-circle-4"></div>
+<div class="circle color-circle-5"></div>
 
-### Response
-
-Sends back a collection of things.
-
-```Authentication: bearer TOKEN```
-```{
-id: thing_2,
-name: 'My second thing'
-}```
 
 For errors responses, see the [response status codes documentation](#response-status-codes).
