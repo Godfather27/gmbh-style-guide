@@ -644,7 +644,39 @@ code {
 }
 
 .order-order-button {
-  padding:15px;
+  font-family: 'Palanquin', sans-serif;
+  color:#4D4D4D;
+  background-color:#E6E6E6;
+  padding:25px;
+  border:none;
+  font-weight: 700
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+.order-order-button:hover, .order-order-button:active {
+
+ background-color:#F0F0F0;
+ padding:25px;
+ border:none;
+ box-shadow: none;
+}
+
+.order-send-button {
+  font-family: 'Palanquin', sans-serif;
+  color:#ffffff;
+  background-color:#177FB2;
+  padding:25px;
+  border:none;
+  font-weight: 700
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+
+.order-send-button:hover, .order-send-button:active {
+ background-color:#1988BF;
+ padding:25px;
+ border:none;
+ box-shadow: none;
 }
 
 .main-logo {
@@ -672,6 +704,11 @@ code {
 .color-circle-3 {background-color:green;}
 .color-circle-4 {background-color:pink;}
 .color-circle-5 {background-color:grey}
+
+
+
+
+
 
 .palanguin-thin {
 
