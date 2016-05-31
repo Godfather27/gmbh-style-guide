@@ -4,17 +4,10 @@ title: 'Naming Conventions'
 
 layout: nil
 ---
+Durch die Verwendung von Komponenten und deren Unterkomponenten, ergibt selbstständig die Namensgebung der CSS Klassen.
 
-This method allows users to retrieve stuff.
+Enthält z.B.: der Orderview ein Element Popup, und dieser wiederum einen Button, so ergibt sich folgende CSS Selektion:
 
-### Response
-
-Sends back a collection of things.
-
-```Authentication: bearer TOKEN```
-```{
-id: thing_2,
-name: 'My second thing'
-}```
-
-For errors responses, see the [response status codes documentation](#response-status-codes).
+<code>.order .popup button {
+}
+</code>
