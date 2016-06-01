@@ -8,8 +8,8 @@ In dieser sollen die zusätzlichen Dateien importiert werden, welche beim Buildp
 
 Zusätzliche Dateien sind in Routen oder Komponenten gegliedert.
 
-In den Dateien der Routen werden Hauptansichten definiert und Layout zwischen Komponenten definiert.
-Layout und Design das Inhalt von Komponenten betreffen, befindet sich in der zugehörigen Komponentendatei.
+In den Dateien der Routen werden Hauptansichten und das Layout zwischen der Komponenten definiert.
+Layout und Design, welche den Inhalt von Komponenten betreffen, befindet sich in der zugehörigen Komponentendatei.
 
 ## Beispiel:
 
